@@ -58,7 +58,6 @@ class MasaInterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
         self.pizza = context as? Pizza
-        print (pizza!.tamaño)
     }
 
     override func willActivate() {

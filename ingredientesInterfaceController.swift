@@ -13,6 +13,7 @@ import Foundation
 class ingredientesInterfaceController: WKInterfaceController {
     
     var pizza : Pizza? = nil
+    var numeroIngredientes = 0
 
 
     @IBOutlet var pimiento: WKInterfaceSwitch!
@@ -108,7 +109,6 @@ class ingredientesInterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
         self.pizza = context as? Pizza
-        print (pizza!.tamaño)
     }
 
     override func willActivate() {

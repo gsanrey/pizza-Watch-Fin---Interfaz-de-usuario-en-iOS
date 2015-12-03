@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qdP-y1-5y3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
@@ -158,10 +158,15 @@
                         <label height="19.5" alignment="left" text="TAMAÑO" id="Xpm-X5-ZKi"/>
                         <label alignment="left" text="MASA" id="Pc0-L6-wKb"/>
                         <label alignment="left" text="QUESO" id="tf8-Py-afU"/>
-                        <label height="100.5" alignment="left" text="INGREDIENTES" id="ETT-xc-oSr"/>
+                        <label width="136" height="100.5" alignment="left" text="INGREDIENTES" id="ETT-xc-oSr"/>
                         <button width="1" alignment="left" title="HACER PEDIDO" id="klp-N6-4TI">
                             <connections>
                                 <segue destination="yTn-TH-fbI" kind="push" id="cVZ-xx-mNQ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Rehace tu PIZZA" id="4b0-bi-WhV">
+                            <connections>
+                                <segue destination="qdP-y1-5y3" kind="push" id="OkO-l2-Uxu"/>
                             </connections>
                         </button>
                     </items>
@@ -173,18 +178,19 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="635" y="856"/>
+            <point key="canvasLocation" x="635" y="855.25"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="w4G-Q9-akJ">
             <objects>
                 <controller id="yTn-TH-fbI">
                     <items>
-                        <imageView alignment="left" image="Supreme_pizza" id="sBd-Ja-xZx"/>
+                        <imageView alignment="left" image="2464333237_6e9c25e98b_m.jpg" id="sBd-Ja-xZx"/>
+                        <label alignment="left" text="Ve por tu PEDIDO" textAlignment="center" id="ueU-V4-BB5"/>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="781" y="703"/>
+            <point key="canvasLocation" x="819" y="856"/>
         </scene>
         <!--masaController-->
         <scene sceneID="59k-Rq-8el">
@@ -221,6 +227,22 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="659" y="329"/>
+        </scene>
+        <!--Inicio-->
+        <scene sceneID="96S-ND-aLJ">
+            <objects>
+                <controller identifier="Inicio" id="qdP-y1-5y3">
+                    <items>
+                        <imageView alignment="left" image="7308566078_367211ebf1_q.jpg" contentMode="top" id="EkH-32-yeJ"/>
+                        <button width="1" alignment="left" title="Crea tu PIZZA" id="BgR-kE-Rqq">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="zxg-li-v9s"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="24" y="438.25"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">

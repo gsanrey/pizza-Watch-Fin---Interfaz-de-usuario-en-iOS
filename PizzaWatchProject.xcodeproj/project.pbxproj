@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10409821C10628E00EF792B /* 7308566078_367211ebf1_q.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B10409811C10628E00EF792B /* 7308566078_367211ebf1_q.jpg */; };
+		B10409841C10635F00EF792B /* 2464333237_6e9c25e98b_m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B10409831C10635F00EF792B /* 2464333237_6e9c25e98b_m.jpg */; };
 		B1D008B31C0F150200BD0004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D008B21C0F150200BD0004 /* AppDelegate.swift */; };
 		B1D008B51C0F150200BD0004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D008B41C0F150200BD0004 /* ViewController.swift */; };
 		B1D008B81C0F150200BD0004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D008B61C0F150200BD0004 /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B10409811C10628E00EF792B /* 7308566078_367211ebf1_q.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7308566078_367211ebf1_q.jpg; sourceTree = "<group>"; };
+		B10409831C10635F00EF792B /* 2464333237_6e9c25e98b_m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2464333237_6e9c25e98b_m.jpg; sourceTree = "<group>"; };
 		B1D008AF1C0F150200BD0004 /* PizzaWatchProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaWatchProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D008B21C0F150200BD0004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D008B41C0F150200BD0004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +157,8 @@
 		B1D008C51C0F150300BD0004 /* PizzaWatchProject WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				B10409811C10628E00EF792B /* 7308566078_367211ebf1_q.jpg */,
+				B10409831C10635F00EF792B /* 2464333237_6e9c25e98b_m.jpg */,
 				B1D008C61C0F150300BD0004 /* Interface.storyboard */,
 				B1D008F41C0F3F5600BD0004 /* Pizza.swift */,
 				B1D008C91C0F150300BD0004 /* Assets.xcassets */,
@@ -303,6 +309,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10409841C10635F00EF792B /* 2464333237_6e9c25e98b_m.jpg in Resources */,
+				B10409821C10628E00EF792B /* 7308566078_367211ebf1_q.jpg in Resources */,
 				B1D008CA1C0F150300BD0004 /* Assets.xcassets in Resources */,
 				B1D008C81C0F150300BD0004 /* Interface.storyboard in Resources */,
 			);
